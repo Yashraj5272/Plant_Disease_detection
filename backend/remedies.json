@@ -1,0 +1,313 @@
+{
+  "Pepper__bell__healthy": {
+    "title": "Pepper Bell - Healthy",
+    "advice": [
+      "Crop is healthy. Continue regular irrigation and balanced fertilization.",
+      "Avoid wetting leaves; water at the base.",
+      "Monitor weekly for early spots, pests, or yellowing."
+    ],
+    "medicine": {
+      "chemical": [],
+      "organic": ["Neem oil spray (as per label) for general pest prevention if needed."],
+      "notes": ["No medicine required when healthy."]
+    }
+  },
+
+  "Pepper__bell__Bacterial_spot": {
+    "title": "Pepper Bell - Bacterial Spot",
+    "advice": [
+      "Remove and destroy infected leaves (do not compost).",
+      "Avoid overhead watering; keep foliage dry.",
+      "Do not work in the field when plants are wet; bacteria spreads easily.",
+      "Improve airflow by proper spacing and pruning lower leaves."
+    ],
+    "medicine": {
+      "chemical": [
+        "Copper-based bactericide (as per label)",
+        "Copper + Mancozeb mix (where permitted, as per label)"
+      ],
+      "organic": [
+        "Copper spray (as per label)"
+      ],
+      "notes": [
+        "Start sprays early when symptoms appear.",
+        "Rotate products as per label guidance; avoid repeated same spray."
+      ]
+    }
+  },
+
+  "Potato__healthy": {
+    "title": "Potato - Healthy",
+    "advice": [
+      "Crop is healthy. Maintain good irrigation scheduling and nutrition.",
+      "Ensure good airflow between rows; avoid waterlogging.",
+      "Inspect leaves for early blight/late blight symptoms especially in humid weather."
+    ],
+    "medicine": {
+      "chemical": [],
+      "organic": [],
+      "notes": ["No medicine required when healthy."]
+    }
+  },
+
+  "Potato__Early_blight": {
+    "title": "Potato - Early Blight",
+    "advice": [
+      "Remove heavily infected leaves to reduce spread.",
+      "Avoid overhead irrigation; keep foliage dry.",
+      "Apply mulch to reduce soil splash to leaves.",
+      "Follow crop rotation (avoid potato/tomato in same field for 2–3 seasons)."
+    ],
+    "medicine": {
+      "chemical": [
+        "Mancozeb (as per label)",
+        "Chlorothalonil (as per label)",
+        "Azoxystrobin / Difenoconazole type fungicides (as per label, rotate groups)"
+      ],
+      "organic": [
+        "Copper-based fungicide (as per label)"
+      ],
+      "notes": [
+        "Spray interval depends on weather and label instructions.",
+        "Rotate fungicide groups to reduce resistance."
+      ]
+    }
+  },
+
+  "Potato__Late_blight": {
+    "title": "Potato - Late Blight (Serious)",
+    "advice": [
+      "Remove infected leaves/plant parts immediately and destroy them.",
+      "Avoid overhead watering; late blight spreads fast in cool, humid weather.",
+      "Increase airflow and keep field clean.",
+      "If infection is severe, consider removing severely affected plants to protect the field."
+    ],
+    "medicine": {
+      "chemical": [
+        "Mancozeb (as per label)",
+        "Metalaxyl + Mancozeb (as per label)",
+        "Cymoxanil-based fungicide (as per label, rotate groups)"
+      ],
+      "organic": [
+        "Copper-based fungicide (as per label)"
+      ],
+      "notes": [
+        "Start treatment immediately; late blight can destroy crop quickly.",
+        "Do not repeat the same fungicide group continuously."
+      ]
+    }
+  },
+
+  "Tomato_healthy": {
+    "title": "Tomato - Healthy",
+    "advice": [
+      "Plant is healthy. Continue balanced fertilizer and proper watering.",
+      "Water at the base and keep leaves dry.",
+      "Maintain spacing and remove lower leaves touching soil."
+    ],
+    "medicine": {
+      "chemical": [],
+      "organic": [],
+      "notes": ["No medicine required when healthy."]
+    }
+  },
+
+  "Tomato_Bacterial_spot": {
+    "title": "Tomato - Bacterial Spot",
+    "advice": [
+      "Remove infected leaves and destroy them.",
+      "Avoid overhead watering and handling plants when wet.",
+      "Improve airflow by pruning and spacing.",
+      "Use disease-free seedlings and sanitize tools."
+    ],
+    "medicine": {
+      "chemical": [
+        "Copper-based bactericide (as per label)",
+        "Copper + Mancozeb mix (where permitted, as per label)"
+      ],
+      "organic": [
+        "Copper spray (as per label)"
+      ],
+      "notes": [
+        "Spray early; results are better before disease spreads widely.",
+        "Rotation and hygiene are very important for bacterial diseases."
+      ]
+    }
+  },
+
+  "Tomato_Early_blight": {
+    "title": "Tomato - Early Blight",
+    "advice": [
+      "Remove infected lower leaves first and keep field clean.",
+      "Avoid wet foliage; water at base.",
+      "Use mulch to prevent soil splash.",
+      "Rotate crops and avoid planting tomato near potato."
+    ],
+    "medicine": {
+      "chemical": [
+        "Mancozeb (as per label)",
+        "Chlorothalonil (as per label)",
+        "Azoxystrobin / Difenoconazole type fungicides (as per label, rotate groups)"
+      ],
+      "organic": [
+        "Copper-based fungicide (as per label)"
+      ],
+      "notes": [
+        "Repeat sprays as per label interval, especially during humid periods."
+      ]
+    }
+  },
+
+  "Tomato_Late_blight": {
+    "title": "Tomato - Late Blight (Serious)",
+    "advice": [
+      "Remove infected leaves/branches immediately and destroy them.",
+      "Avoid overhead irrigation; improve airflow.",
+      "Keep plants dry and monitor daily in rainy/cool weather.",
+      "If severe, remove badly infected plants to reduce spread."
+    ],
+    "medicine": {
+      "chemical": [
+        "Mancozeb (as per label)",
+        "Metalaxyl + Mancozeb (as per label)",
+        "Cymoxanil-based fungicide (as per label, rotate groups)"
+      ],
+      "organic": [
+        "Copper-based fungicide (as per label)"
+      ],
+      "notes": [
+        "Late blight spreads quickly; treat early and rotate fungicide groups."
+      ]
+    }
+  },
+
+  "Tomato_Leaf_Mold": {
+    "title": "Tomato - Leaf Mold",
+    "advice": [
+      "Reduce humidity: improve ventilation and spacing.",
+      "Avoid watering leaves; water at base.",
+      "Remove infected leaves and keep greenhouse/field clean."
+    ],
+    "medicine": {
+      "chemical": [
+        "Chlorothalonil (as per label)",
+        "Mancozeb (as per label)",
+        "Azoxystrobin type fungicide (as per label, rotate groups)"
+      ],
+      "organic": [
+        "Copper-based fungicide (as per label)"
+      ],
+      "notes": [
+        "Leaf mold is strongly linked with high humidity; ventilation is key."
+      ]
+    }
+  },
+
+  "Tomato_Septoria_leaf_spot": {
+    "title": "Tomato - Septoria Leaf Spot",
+    "advice": [
+      "Remove infected leaves and destroy them (do not compost).",
+      "Avoid overhead watering; keep leaves dry.",
+      "Mulch to prevent soil splash and improve airflow."
+    ],
+    "medicine": {
+      "chemical": [
+        "Chlorothalonil (as per label)",
+        "Mancozeb (as per label)",
+        "Copper-based fungicide (as per label)"
+      ],
+      "organic": [
+        "Copper spray (as per label)"
+      ],
+      "notes": [
+        "Start sprays early and repeat as per label during wet/humid weather."
+      ]
+    }
+  },
+
+  "Tomato__Target_Spot": {
+    "title": "Tomato - Target Spot",
+    "advice": [
+      "Remove infected leaves, especially lower foliage.",
+      "Improve airflow and reduce humidity.",
+      "Avoid overhead irrigation; water at base."
+    ],
+    "medicine": {
+      "chemical": [
+        "Chlorothalonil (as per label)",
+        "Mancozeb (as per label)",
+        "Azoxystrobin type fungicide (as per label, rotate groups)"
+      ],
+      "organic": [
+        "Copper-based fungicide (as per label)"
+      ],
+      "notes": [
+        "Use preventive sprays if weather is humid and disease is known in your area."
+      ]
+    }
+  },
+
+  "Tomato__Tomato_mosaic_virus": {
+    "title": "Tomato - Mosaic Virus",
+    "advice": [
+      "Virus has no direct cure: remove infected plants to stop spread.",
+      "Disinfect hands/tools; avoid tobacco handling near plants.",
+      "Control insects that can spread infection and avoid plant injuries."
+    ],
+    "medicine": {
+      "chemical": [
+        "No direct chemical cure for viruses"
+      ],
+      "organic": [
+        "Neem oil (as per label) to help manage insect vectors (supportive)"
+      ],
+      "notes": [
+        "Main control is removal + hygiene + resistant varieties."
+      ]
+    }
+  },
+
+  "Tomato__Tomato_YellowLeaf__Curl_Virus": {
+    "title": "Tomato - Yellow Leaf Curl Virus",
+    "advice": [
+      "No direct cure: remove infected plants early to reduce spread.",
+      "Control whiteflies (main vector) and use yellow sticky traps.",
+      "Use insect-proof netting in nursery and keep weeds controlled."
+    ],
+    "medicine": {
+      "chemical": [
+        "Whitefly control insecticides (as per label and local recommendations)"
+      ],
+      "organic": [
+        "Neem oil spray (as per label) for whitefly management (supportive)",
+        "Yellow sticky traps for monitoring and reduction"
+      ],
+      "notes": [
+        "Vector control (whitefly) is the most important step."
+      ]
+    }
+  },
+
+  "Tomato__Spider_mites_Two_spotted_spider_mite": {
+    "title": "Tomato - Two-Spotted Spider Mite",
+    "advice": [
+      "Check leaf underside for mites/webbing; remove heavily infested leaves.",
+      "Reduce dust, keep plants well-watered (not waterlogged).",
+      "Spray water on underside of leaves to reduce mite population (where suitable)."
+    ],
+    "medicine": {
+      "chemical": [
+        "Abamectin-type miticide (as per label)",
+        "Spiromesifen / Bifenazate type miticides (as per label, rotate groups)"
+      ],
+      "organic": [
+        "Neem oil / horticultural soap (as per label)",
+        "Sulfur-based options where permitted (as per label)"
+      ],
+      "notes": [
+        "Mites develop resistance quickly: rotate miticide groups.",
+        "Spray underside of leaves for best effect."
+      ]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Tomato_Late_blight": {
+    "description": "A fungal-like disease that causes dark patches and leaf decay, spreads fast in cool and wet weather.",
+    "symptoms": "Brown/black lesions, white mold under leaves, rapid leaf death.",
+    "prevention": "Avoid overhead watering, ensure spacing, remove infected leaves.",
+    "severity_hint": "High"
+  },
+  "Tomato_Early_blight": {
+    "description": "Fungal disease causing concentric ring spots, common in warm humid conditions.",
+    "symptoms": "Target-like rings, yellowing leaves, reduced yield.",
+    "prevention": "Crop rotation, remove infected debris, fungicide if needed.",
+    "severity_hint": "Medium"
+  },
+  "Tomato_healthy": {
+    "description": "No disease detected.",
+    "symptoms": "Green leaf, no visible lesions.",
+    "prevention": "Maintain good watering, nutrition and pest control.",
+    "severity_hint": "None"
+  }
+}
