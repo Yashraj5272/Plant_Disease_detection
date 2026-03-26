@@ -16,12 +16,7 @@ app = FastAPI(title="Plant Disease Detection API")
 # ---------------- CORS ----------------
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:5173",
-        "http://127.0.0.1:5173",
-        "https://plant-disease-detection-git-main-yashraj5272s-projects.vercel.app",
-        "https://plant-disease-detection.vercel.app",
-    ],
+    allow_origins=["*"],   # 👈 THIS LINE CHANGED
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
