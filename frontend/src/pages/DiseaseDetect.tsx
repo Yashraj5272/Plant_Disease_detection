@@ -3,7 +3,8 @@ import axios from "axios";
 import { UploadCloud, Leaf, ShieldCheck, Download, X } from "lucide-react";
 import { useLang } from "../state/lang";
 
-const API = "http://127.0.0.1:8000/predict";
+const API_BASE =
+  import.meta.env.VITE_API_URL || "https://plant-disease-detection-g6l1.onrender.com";
 
 /** Old format (your UI initially supported this) */
 type RemedyObjOld = {
@@ -295,9 +296,9 @@ export default function DiseaseDetect() {
       const form = new FormData();
       form.append("file", file);
 
-      const r = await axios.post(API, form, {
-        headers: { "Content-Type": "multipart/form-data" },
-      });
+      const r = await axios.post(`${API_BASE}/predict`, form, {
+  headers: { "Content-Type": "multipart/form-data" },
+});
 
       const data = r.data as PredictResp;
       setResp(data);
@@ -317,7 +318,7 @@ export default function DiseaseDetect() {
 
       localStorage.setItem("detect_history", JSON.stringify([item, ...old]));
     } catch (e: any) {
-      setErr(e?.message || "Prediction failed");
+      setErr(e?.response?.data?.detail || e?.message || "Prediction failed");
       setProgress(0);
     } finally {
       alive = false;
